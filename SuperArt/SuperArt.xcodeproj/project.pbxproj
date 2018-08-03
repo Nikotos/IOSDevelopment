@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263985842101D4E400434137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263985832101D4E400434137 /* AppDelegate.swift */; };
+		263985892101D4E400434137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263985872101D4E400434137 /* Main.storyboard */; };
+		2639858C2101D4E400434137 /* SuperArt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2639858A2101D4E400434137 /* SuperArt.xcdatamodeld */; };
+		2639858E2101D4E500434137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2639858D2101D4E500434137 /* Assets.xcassets */; };
+		263985912101D4E500434137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2639858F2101D4E500434137 /* LaunchScreen.storyboard */; };
+		263985992101D56E00434137 /* SuperArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263985982101D56E00434137 /* SuperArtViewController.swift */; };
+		2639859B2101D5D300434137 /* SuperArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2639859A2101D5D300434137 /* SuperArtView.swift */; };
+		26DAF29721031B8300035FE5 /* SuperArtDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAF29621031B8300035FE5 /* SuperArtDocumentsViewController.swift */; };
+		26F307F8210756D100BD0436 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F307F7210756D100BD0436 /* EmojiCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		263985802101D4E400434137 /* SuperArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263985832101D4E400434137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		263985882101D4E400434137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2639858B2101D4E400434137 /* SuperArt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperArt.xcdatamodel; sourceTree = "<group>"; };
+		2639858D2101D4E500434137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		263985902101D4E500434137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		263985922101D4E500434137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263985982101D56E00434137 /* SuperArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperArtViewController.swift; sourceTree = "<group>"; };
+		2639859A2101D5D300434137 /* SuperArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperArtView.swift; sourceTree = "<group>"; };
+		26DAF29621031B8300035FE5 /* SuperArtDocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperArtDocumentsViewController.swift; sourceTree = "<group>"; };
+		26F307F7210756D100BD0436 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2639857D2101D4E400434137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263985772101D4E400434137 = {
+			isa = PBXGroup;
+			children = (
+				263985822101D4E400434137 /* SuperArt */,
+				263985812101D4E400434137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		263985812101D4E400434137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263985802101D4E400434137 /* SuperArt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		263985822101D4E400434137 /* SuperArt */ = {
+			isa = PBXGroup;
+			children = (
+				26F307F7210756D100BD0436 /* EmojiCollectionViewCell.swift */,
+				263985832101D4E400434137 /* AppDelegate.swift */,
+				263985872101D4E400434137 /* Main.storyboard */,
+				2639859A2101D5D300434137 /* SuperArtView.swift */,
+				263985982101D56E00434137 /* SuperArtViewController.swift */,
+				26DAF29621031B8300035FE5 /* SuperArtDocumentsViewController.swift */,
+				2639858D2101D4E500434137 /* Assets.xcassets */,
+				2639858F2101D4E500434137 /* LaunchScreen.storyboard */,
+				263985922101D4E500434137 /* Info.plist */,
+				2639858A2101D4E400434137 /* SuperArt.xcdatamodeld */,
+			);
+			path = SuperArt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2639857F2101D4E400434137 /* SuperArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263985952101D4E500434137 /* Build configuration list for PBXNativeTarget "SuperArt" */;
+			buildPhases = (
+				2639857C2101D4E400434137 /* Sources */,
+				2639857D2101D4E400434137 /* Frameworks */,
+				2639857E2101D4E400434137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperArt;
+			productName = SuperArt;
+			productReference = 263985802101D4E400434137 /* SuperArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263985782101D4E400434137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Oak Nick";
+				TargetAttributes = {
+					2639857F2101D4E400434137 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2639857B2101D4E400434137 /* Build configuration list for PBXProject "SuperArt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 263985772101D4E400434137;
+			productRefGroup = 263985812101D4E400434137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2639857F2101D4E400434137 /* SuperArt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2639857E2101D4E400434137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263985912101D4E500434137 /* LaunchScreen.storyboard in Resources */,
+				2639858E2101D4E500434137 /* Assets.xcassets in Resources */,
+				263985892101D4E400434137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2639857C2101D4E400434137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263985992101D56E00434137 /* SuperArtViewController.swift in Sources */,
+				26F307F8210756D100BD0436 /* EmojiCollectionViewCell.swift in Sources */,
+				2639858C2101D4E400434137 /* SuperArt.xcdatamodeld in Sources */,
+				2639859B2101D5D300434137 /* SuperArtView.swift in Sources */,
+				26DAF29721031B8300035FE5 /* SuperArtDocumentsViewController.swift in Sources */,
+				263985842101D4E400434137 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		263985872101D4E400434137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263985882101D4E400434137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2639858F2101D4E500434137 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263985902101D4E500434137 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		263985932101D4E500434137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		263985942101D4E500434137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		263985962101D4E500434137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P8QRQA2T4;
+				INFOPLIST_FILE = SuperArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OakDev.SuperArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		263985972101D4E500434137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P8QRQA2T4;
+				INFOPLIST_FILE = SuperArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OakDev.SuperArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2639857B2101D4E400434137 /* Build configuration list for PBXProject "SuperArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263985932101D4E500434137 /* Debug */,
+				263985942101D4E500434137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263985952101D4E500434137 /* Build configuration list for PBXNativeTarget "SuperArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263985962101D4E500434137 /* Debug */,
+				263985972101D4E500434137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2639858A2101D4E400434137 /* SuperArt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2639858B2101D4E400434137 /* SuperArt.xcdatamodel */,
+			);
+			currentVersion = 2639858B2101D4E400434137 /* SuperArt.xcdatamodel */;
+			path = SuperArt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 263985782101D4E400434137 /* Project object */;
+}
